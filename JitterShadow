@@ -1,0 +1,16 @@
+### Repository Layout (`JitterShadow-Complete`)
+
+```text
+JitterShadow-Complete/
+├── theme/
+│   └── Jitter-Shadow/          # Installed to ~/.themes/Jitter-Shadow
+├── icons/
+│   └── Jitter-Forge/           # Installed to ~/.local/share/icons/Jitter-Forge
+├── extras/
+│   ├── prompt.sh               # Red jitter + white @5H4D0W Zsh/Bash prompt
+│   ├── terminalrc              # Dark crimson XFCE terminal theme & JetBrains Mono 11 config
+│   ├── icons/                  # Additional custom icon assets
+│   └── wallpapers/             # Matching desktop backgrounds
+└── tools/
+    ├── check.sh                # Post-install health check & xfconf verification
+    └── selection-test.py       # GTK3 visual test for red drag-select & text highlights
